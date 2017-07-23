@@ -1,0 +1,469 @@
+/* Global */
+
+::-moz-selection {
+    background-color: #1a1a1a;
+    color: #FFF
+}
+
+::selection {
+    background-color: #1a1a1a;
+    color: #FFF
+}
+
+body
+{
+    background-color: #FFFFFF;
+    font-family:  'Lato', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
+    font-size: 15px;
+}
+
+p{
+    text-align: justify;
+    color: #666;
+}
+.btn {
+        -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+a {
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 60px;
+}
+span{
+    color: crimson;
+}
+
+.f-icon{
+    font-size: 30px !important;
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+    line-height: 55px !important;
+    border: 1px solid #333;
+    border-radius: 100%;
+}
+
+.title{
+    color: #FFFFFF;
+    background-color:crimson;
+    text-transform: uppercase;
+    display: block;
+    margin: 40px auto;
+    margin: 50px auto;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.crimson{
+    color: #DC143C;
+}
+
+/*============================== Start About Us ============================= */
+/* ===================== Start Abou Us ==================== */
+.cover2 {
+    background: url('../images/head22.jpg');
+    display: table;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+   background-size: cover;
+}
+
+.cover2:before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.cover2 .container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.cover2 h3 {
+    margin: 45px 0 75px 0;
+    color: #fff;
+}
+
+.cover2 h1 {
+    margin-bottom: 4%;
+    color: #fff;
+}
+
+.cover2 .btn {
+    background-color: #000; /*#199EB8*/
+    color: #fff;
+    padding: 15px 45px;
+    border-radius: 50px;
+}
+
+.cover2 .btn:hover {
+    background-color: crimson; /*#e04f00*/
+    color: #fff;
+}
+.team {
+    padding: 40px 0;
+    text-decoration: none;
+}
+.team h2 {
+  color: crimson;
+  margin-bottom: 20px;
+}
+
+.team .col-sm-3 {
+  padding: 0;
+}
+
+.team .card > a {
+  display: block;
+}
+
+.team .card img {
+  width: 100%;
+  height:200px;
+}
+
+.team .card h4 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.team .card p {
+  font-size: 11px;
+  color: #fff;
+  opacity: .75;
+  margin: 0;
+  padding: 0 35px;
+}
+
+.team .card .social-nav {
+  margin-bottom: 45px;
+}
+
+.team .card .social-nav a {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 4px;
+}
+
+.team .card .social-nav a:hover {
+  opacity: .75;
+}
+
+.team .card:hover .team-over {
+  opacity: 1;
+  visibility: visible;
+}
+
+.team .card:hover .card-title-wrap {
+  background-color: crimson
+}
+
+.team .card:hover .card-title-wrap .card-title, .team .card:hover .card-title-wrap .card-text {
+  color: #fff;
+}
+
+.team .team-over {
+  padding-top: 45px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.team .card-title-wrap {
+  padding: 15px 25px;
+  position: relative;
+  z-index: 9;
+  background-color: #fff;
+}
+
+.team .card-title-wrap .card-title, .team .card-title-wrap .card-text {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  display: block;
+  margin: 0;
+}
+
+.team .card-title-wrap .card-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.team .card-title-wrap .card-text {
+  font-size: 18px;
+  color: #999;
+}
+/* =============================Start Our Skills============================== */
+.skills .progress{
+    padding: 0;
+}
+.skills .btn {
+    background-color: #000;
+    color:#fff;
+}
+.skills .btn:hover {
+    background-color: crimson;
+    
+}
+
+.skill-info p {
+    font-size: 30px;
+    color: #000;
+}
+.skills .skill-info{
+    padding: 0;
+    margin: 0;
+}
+/* ==================================================
+  Cover Section Styling
+================================================== */
+
+.cover {
+    background: url('../images/head.jpg');
+    display: table;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+   background-size: cover;
+}
+
+.cover:before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.cover .container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.cover h1,
+.cover h3 {
+    color: #fff;
+}
+
+.cover h3 {
+    margin: 45px 0 75px 0;
+}
+
+.cover h1 {
+    margin-bottom: 4%;
+}
+
+.cover .btn {
+    background-color: #000; /*#199EB8*/
+    color: #fff;
+    padding: 15px 45px;
+    border-radius: 50px;
+}
+
+.cover .btn:hover {
+    background-color: crimson; /*#e04f00*/
+    color: #fff;
+}
+
+
+/* ==================================================
+  Header Styling
+================================================== */
+
+#header .navbar {
+    background-color: #000;
+    height: 70px;
+    border: none;
+    margin:0;
+    padding: 0;
+    border-radius: 0; 
+}
+
+#header .navbar-brand {
+    margin-top: 7px;
+    color: #fff;
+}
+#header span {
+    font-size: 19px;
+}
+#header img {
+    width: 70%;
+    padding: 15px 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    padding: 23px 15px;
+    font-weight: 300;
+    font-size: 15px;
+    outline: none;
+    text-decoration: none;
+    background: #000;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus
+{
+    color: crimson
+}
+#header a i {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding: 25px 7px;
+    font-size: 23px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#header a i:hover {
+    opacity: 0.7;
+    color:crimson
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color: transparent;
+}
+.navbar-toggle{
+   border-color: transparent !important;
+}
+.navbar-toggle:hover,
+.navbar-toggle:focus
+
+{
+    transition: 1s ease-in-out;
+    background: none !important;
+  
+}
+
+
+/* ====== start Section Form ========== */
+.contact{
+    background: url('../images/contact.jpg');
+    padding: 40px 0;
+}
+.formm{
+    background: #000;
+}
+.formm h1{
+    color: crimson;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+.formm .btn{
+    background-color: crimson;
+    transition: 1s ease-in-out;
+}
+.formm .btn:hover,
+.formm .btn:focus
+{
+    background-color:#ad0b2a;
+    
+}
+.contact_form{
+    max-width: 450px;
+    margin:1em auto;
+}
+
+.contact_form .form-group{
+    margin-bottom: 0;
+    position: relative;
+
+}
+
+
+.contact_form input:nth-of-type(2){margin-top:10px;}
+
+.contact_form textarea {
+    height: 150px ;
+}
+.contact_form  input:not([type='submit']) + i {
+position: relative;
+height: 0;
+top: -27px;
+left: 7px;
+color: #999;
+}
+.contact_form input{
+    padding-left: 30px;
+}
+
+.contact_form .asterisk{
+    color: red;
+    font-size: 11px;
+    height: 0;
+    float: right;
+    top: -25px;
+    position: relative;
+    right: 6px;
+}
+.contact_form .send-icon{
+    display: block;
+    top: -24px;
+    left: 4px;
+    color: #fff;
+    position: relative;
+}
+
+.alert1,
+.alert2,
+.alert3
+{
+    padding: 6px 10px;
+    display: none;
+}
+
+ .fonts {margin-top: 120px;}
+ .font i {
+    color: crimson;
+    float: left;
+    margin-right: 15px;
+    font-size: 30px;
+    padding: 10px;
+    opacity: 0.9
+   
+}
+ .font p{ color: #fff; font-size: 25px; padding: 10px; }
+/* ================== Start Footer ===================*/
+.footer{
+    top: 0;
+    bottom: 0;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 10px;
+    background: #000;
+}
